@@ -1,0 +1,23 @@
+{
+  "name": "axios-socks5-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["axios", "socks5", "proxy", "socks", "agent"],
+  "repository": {
+    "url": "https://github.com/0x0a0d/axios-socks5-agent",
+    "type": "git"
+  },
+  "author": "0x0a0d",
+  "license": "ISC",
+  "dependencies": {
+    "socks5-http-client": "^1.0.4",
+    "socks5-https-client": "^1.2.1"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2"
+  }
+}
