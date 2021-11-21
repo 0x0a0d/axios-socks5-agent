@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "pretty": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es6",
+    "declaration": true,
+  },
+  "include": [
+    "types",
+    "src",
+    "index.ts"
+  ],
+  "exclude": [
+    "dist",
+    "**/**.spec.ts",
+    "**/**.spec.js"
+  ]
+}

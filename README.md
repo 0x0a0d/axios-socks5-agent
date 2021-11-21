@@ -8,7 +8,17 @@ wrap for **socks5-http-client** and **socks5-https-client**. I wrote this becaus
 const axios = require('axios')
 const SocksAgent = require('axios-socks5-agent')
 
-const { httpAgent, httpsAgent } = new SocksAgent({ agentOptions: { keepAlive: true }})
+const { httpAgent, httpsAgent } = new SocksAgent({
+  agentOptions: {
+    keepAlive: true,
+  },
+  // socks5
+  host: '127.0.0.1',
+  port: 9050,
+  // socks5 auth
+  username: 'admin',
+  password: 'pass1234',
+})
 
 axios
   .get('http://wtfismyip.com/json', { httpAgent, httpsAgent })

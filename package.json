@@ -4,9 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepack": "tsc"
   },
-  "keywords": ["axios", "socks5", "proxy", "socks", "agent"],
+  "keywords": [
+    "axios",
+    "socks5",
+    "proxy",
+    "socks",
+    "agent"
+  ],
   "repository": {
     "url": "https://github.com/0x0a0d/axios-socks5-agent",
     "type": "git"
@@ -18,6 +24,10 @@
     "socks5-https-client": "^1.2.1"
   },
   "devDependencies": {
-    "axios": "^0.19.2"
+    "@cylution/eslint-config-nodejs": "^1.0.12",
+    "@types/node": "^16.11.9",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "typescript": "^4.5.2"
   }
 }
