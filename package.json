@@ -29,5 +29,13 @@
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "typescript": "^4.5.2"
-  }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/**/**.js",
+    "src/**/**.d.ts",
+    "types",
+    "dist"
+  ]
 }
