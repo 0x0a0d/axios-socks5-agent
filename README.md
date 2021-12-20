@@ -8,7 +8,7 @@ wrap for **socks5-http-client** and **socks5-https-client**. I wrote this becaus
 const axios = require('axios')
 const SocksAgent = require('axios-socks5-agent')
 
-const { httpAgent, httpsAgent } = new SocksAgent({
+const { httpAgent, httpsAgent } = SocksAgent({
   agentOptions: {
     keepAlive: true,
   },
