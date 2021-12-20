@@ -14,7 +14,7 @@ import { Socks5AgentOptions } from './types/axios-socks5-agent'
  * @param {AxiosSocks5AgentOptions} options
  * @return { { httpAgent: Agent, httpsAgent: Agent } }
  */
-function Socks5Agent(options: Socks5AgentOptions): {httpAgent: HttpAgent, httpsAgent: HttpsAgent} {
+function Socks5Agent(options: Socks5AgentOptions): {httpAgent: any, httpsAgent: any} {
   const {
     host = '127.0.0.1',
     port = 9050,
